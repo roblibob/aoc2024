@@ -16,8 +16,8 @@ export const transform = (input: string): String[] => {
 };
 
 /**
- * Given a grid of letters explore each cell in all directions 
- * to find the case sensative word
+ * Explore the two diagonals of each cell in the grid 
+ * to find the word "MAS" or "SAM"
  */
 export const countXMASOccurrences = (grid: string[]): number => {
   const numRows = grid.length;
